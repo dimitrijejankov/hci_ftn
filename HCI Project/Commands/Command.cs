@@ -12,5 +12,10 @@ namespace HCI_Project
         public abstract void Perform();
         public abstract void Rollback();
 
+        public abstract String description
+        {
+            get;
+        }
+
     }
 }

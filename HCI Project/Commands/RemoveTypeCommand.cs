@@ -36,5 +36,10 @@ namespace HCI_Project.Commands
             dBE.Type.Add(type);
             dBE.SaveChanges();
         }
+
+        public override string description
+        {
+            get { return "Remove type"; }
+        }
     }
 }

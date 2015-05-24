@@ -58,5 +58,10 @@ namespace HCI_Project
 
             map.Children.Add(pushpin);
         }
+
+        public override string description
+        {
+            get { return "Remove pushpin"; }
+        }
     }
 }

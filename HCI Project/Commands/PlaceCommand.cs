@@ -60,5 +60,10 @@ namespace HCI_Project
 
             map.RemovePin(pin);
         }
+
+        public override string description
+        {
+            get { return "Place pushpin"; }
+        }
     }
 }

@@ -66,5 +66,10 @@ namespace HCI_Project
 
             dBE.SaveChanges();
         }
+
+        public override string description
+        {
+            get { return "Move pushpin"; }
+        }
     }
 }

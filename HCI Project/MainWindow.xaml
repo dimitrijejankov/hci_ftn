@@ -55,6 +55,7 @@
                 <MenuItem Header="View" FontWeight="Normal" Width="75" FontSize="14.667" BorderBrush="#FF41B1E1" BorderThickness="0,0,2,0">
                     <MenuItem Header="Fullscreen"
                                         Command="SaveAs" BorderThickness="0,0,0,1" BorderBrush="White" InputGestureText="F5"/>
+                    <MenuItem Header="History" BorderThickness="0,0,0,1" BorderBrush="White" Click="HistoryClick"/>
                 </MenuItem>
                 <MenuItem Header="Add" FontWeight="Normal" Width="75" FontSize="14.667" BorderBrush="#FF41B1E1" BorderThickness="0,0,2,0" >
                     <MenuItem Header="Species"

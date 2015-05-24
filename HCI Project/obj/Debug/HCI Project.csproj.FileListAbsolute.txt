@@ -110,3 +110,5 @@ C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HCI Project_MarkupCompile.cach
 C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HCI Project.g.resources
 C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HCI_Project.Properties.Resources.resources
 C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HCI Project.csproj.GenerateResource.Cache
+C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HistoryWindow.baml
+C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HistoryWindow.g.cs

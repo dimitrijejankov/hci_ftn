@@ -30,9 +30,11 @@ namespace HCI_Project
         private Dictionary<String, LayoutDocument> mapDocuments = new Dictionary<string, LayoutDocument>();
         private String textSearch = "";
         private bool fullscreen = false;
+        public static HistoryWindow history;
 
         public MainWindow()
         {
+            history = new HistoryWindow(this);
             InitializeComponent();
             ReloadSpecies();
             ReloadMaps();
@@ -52,6 +54,7 @@ namespace HCI_Project
         public void Reload()
         {
             ReloadSpecies();
+            history.Reload();
         }
 
         public void ReloadMaps()
@@ -99,12 +102,14 @@ namespace HCI_Project
         {
             CommandManager.Instance.UndoCommand();
             ReloadSpecies();
+            history.Reload();
         }
 
         private void RedoCommandBinding_Executed(object sender, RoutedEventArgs e)
         {
             CommandManager.Instance.RedoCommand();
             ReloadSpecies();
+            history.Reload();
         }
 
         private void EditTagsClick(object sender, RoutedEventArgs e)
@@ -273,6 +278,20 @@ namespace HCI_Project
         {
             var map = dockingManager.ActiveContent as ResourceMap;
             map.TogleFilterVisiblity();
+        }
+
+        private void HistoryClick(object sender, RoutedEventArgs e)
+        {
+            if (!history.IsVisible)
+            {
+                history.Show();
+                history.Reload();
+            }
+            else
+            {
+                history.Hide();
+                history.Reload();
+            }
         }
 
     }

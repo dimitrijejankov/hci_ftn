@@ -19,7 +19,6 @@ namespace HCI_Project
         {
         }
 
-
         internal static CommandManager Instance
         {
             get 
@@ -38,6 +37,7 @@ namespace HCI_Project
                 command.Perform();
                 commands.AddLast(command);
                 undoneCommands.Clear();
+                MainWindow.history.Reload();
             }
             catch(Exception e)
             {
@@ -65,6 +65,16 @@ namespace HCI_Project
                 commands.AddLast(c);
                 undoneCommands.RemoveLast();
             }
+        }
+
+        public LinkedList<Command> getCommands()
+        {
+            return commands;
+        }
+
+        public LinkedList<Command> getUndoneCommands()
+        {
+            return undoneCommands;
         }
 
     }

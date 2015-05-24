@@ -48,5 +48,10 @@ namespace HCI_Project.Commands
 
             dBE.SaveChanges();
         }
+
+        public override string description
+        {
+            get { return "Remove Tag"; }
+        }
     }
 }

@@ -51,7 +51,7 @@ namespace HCI_Project
             {
                 Command c = commands.Last.Value;
                 c.Rollback();
-                undoneCommands.AddLast(c);
+                undoneCommands.AddFirst(c);
                 commands.RemoveLast();
             }
         }
@@ -60,10 +60,10 @@ namespace HCI_Project
         {
             if (undoneCommands.Count != 0)
             {
-                Command c = undoneCommands.Last.Value;
+                Command c = undoneCommands.First.Value;
                 c.Perform();
                 commands.AddLast(c);
-                undoneCommands.RemoveLast();
+                undoneCommands.RemoveFirst();
             }
         }
 

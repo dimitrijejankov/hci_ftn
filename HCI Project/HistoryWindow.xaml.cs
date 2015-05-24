@@ -83,5 +83,11 @@ namespace HCI_Project
                 current_command_index = item;
             }
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+           this.Hide();
+           e.Cancel = true;
+        }
     }
 }

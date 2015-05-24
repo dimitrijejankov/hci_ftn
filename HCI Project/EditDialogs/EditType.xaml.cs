@@ -47,6 +47,8 @@ namespace HCI_Project.EditDialogs
 
         private void LoadTypeFromDatabase()
         {
+            typeItemList.Clear();
+
             var dB = DataBase.Instance();
             var dBE = dB.DataEnteties;
 

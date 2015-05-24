@@ -114,6 +114,7 @@ namespace HCI_Project.EditDialogs
                 {
                     RemoveTagsCommand command = new RemoveTagsCommand(tag);
                     CommandManager.Instance.DoCommand(command);
+                    Reload();
                 }
             }
         }

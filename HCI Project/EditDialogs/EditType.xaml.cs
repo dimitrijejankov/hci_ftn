@@ -94,6 +94,7 @@ namespace HCI_Project.EditDialogs
             {
                 RemoveTypeCommand command = new RemoveTypeCommand(selectedType);
                 CommandManager.Instance.DoCommand(command);
+                Reload();
             }
         }
 

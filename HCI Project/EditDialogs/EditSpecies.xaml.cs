@@ -95,6 +95,7 @@ namespace HCI_Project.EditDialogs
                 {
                     var command = new RemoveSpeciesCommand(selectedSpecies, mainWindow);
                     CommandManager.Instance.DoCommand(command);
+                    Reload();
                 }
             }
         }

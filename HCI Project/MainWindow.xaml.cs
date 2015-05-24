@@ -98,11 +98,13 @@ namespace HCI_Project
         private void UndoCommandBinding_Executed(object sender, RoutedEventArgs e)
         {
             CommandManager.Instance.UndoCommand();
+            ReloadSpecies();
         }
 
         private void RedoCommandBinding_Executed(object sender, RoutedEventArgs e)
         {
             CommandManager.Instance.RedoCommand();
+            ReloadSpecies();
         }
 
         private void EditTagsClick(object sender, RoutedEventArgs e)

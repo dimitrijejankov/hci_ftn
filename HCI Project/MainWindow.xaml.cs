@@ -294,5 +294,11 @@ namespace HCI_Project
             }
         }
 
+        private void WindowClosing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            history.closable = true;
+            history.Close();
+        }
+
     }
 }

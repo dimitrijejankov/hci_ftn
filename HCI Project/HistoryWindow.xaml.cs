@@ -24,6 +24,8 @@ namespace HCI_Project
         private object _commandLock = new object();
         private int current_command_index = -1;
 
+        public bool closable = false;
+
         Reloadable window = null;
 
         public HistoryWindow(Reloadable window)
@@ -87,7 +89,7 @@ namespace HCI_Project
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
            this.Hide();
-           e.Cancel = true;
+           e.Cancel = !closable;
         }
     }
 }

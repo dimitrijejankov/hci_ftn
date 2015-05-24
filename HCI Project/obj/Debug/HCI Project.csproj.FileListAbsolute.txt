@@ -146,7 +146,6 @@ C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\ro\Xceed.Wpf.AvalonDock.res
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.csprojResolveAssemblyReference.cache
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\AddSpeciesWindow.baml
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\AddTypeWindow.baml
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\TagDialog.baml

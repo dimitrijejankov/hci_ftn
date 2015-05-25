@@ -86,6 +86,7 @@ namespace HCI_Project
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
+
             var result = MessageBox.Show("Do You want to save your work?", "", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
 
             if (result == MessageBoxResult.Cancel)
@@ -105,6 +106,7 @@ namespace HCI_Project
 
             base.OnClosing(e);
         }
+
 
         public void ReloadSpecies()
         {

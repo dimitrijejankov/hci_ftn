@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\
+C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\
 HCI_Project
 none
 false
 DEBUG;TRACE
-C:\Users\Eugene\git\hci_ftn\HCI Project\App.xaml
+C:\Users\dimitrije\git\hci_ftn\HCI Project\App.xaml
 91113336564
 
 33-1963641031
-33803118447
+33169462904
 AddDialogs\AddSpeciesWindow.xaml;AddDialogs\AddTypeWindow.xaml;AddDialogs\TagDialog.xaml;Controls\ResourceMap.xaml;EditDialogs\EditSpecies.xaml;EditDialogs\EditTag.xaml;EditDialogs\EditType.xaml;HistoryWindow.xaml;MainWindow.xaml;
 
 False

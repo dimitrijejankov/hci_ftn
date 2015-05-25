@@ -113,8 +113,6 @@ C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HCI Project.csproj.GenerateRes
 C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HistoryWindow.baml
 C:\Users\Eugene\git\hci_ftn\HCI Project\obj\Debug\HistoryWindow.g.cs
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\HCI Project.exe.config
-C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.exe
-C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.pdb
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\HCI Project.exe
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\HCI Project.pdb
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\EntityFramework.dll
@@ -146,6 +144,7 @@ C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\ro\Xceed.Wpf.AvalonDock.res
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\dimitrije\git\hci_ftn\HCI Project\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.csprojResolveAssemblyReference.cache
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\AddSpeciesWindow.baml
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\AddTypeWindow.baml
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\AddDialogs\TagDialog.baml
@@ -169,3 +168,5 @@ C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project_MarkupCompile.c
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.g.resources
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI_Project.Properties.Resources.resources
 C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.csproj.GenerateResource.Cache
+C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.exe
+C:\Users\dimitrije\git\hci_ftn\HCI Project\obj\Debug\HCI Project.pdb

@@ -91,5 +91,7 @@ namespace HCI_Project
            this.Hide();
            e.Cancel = !closable;
         }
+
+        
     }
 }

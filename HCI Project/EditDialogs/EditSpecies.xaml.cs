@@ -66,7 +66,7 @@ namespace HCI_Project.EditDialogs
                                                       Icon = species.icon, 
                                                       Tag = "ovde ide tag", 
                                                       Type = species.type_id, 
-                                                      Status = species.status.ToString(), 
+                                                      Status = getStatusFromEnum(species.status), 
                                                       ID = species.id, 
                                                       Date = species.dd, 
                                                       Desc = species.desc, 
@@ -74,6 +74,21 @@ namespace HCI_Project.EditDialogs
             }
 
             //lista.ItemsSource = speciesItemList;
+        }
+
+        String getStatusFromEnum(long e)
+        {
+            switch(e)
+            {
+                case 0 : return "Critically Endangered"; break;
+                case 1 : return "Endangered"; break;
+                case 2 : return "Vulnerable"; break;
+                case 3 : return "Dependent on Conservation of Habitat"; break;
+                case 4 : return "Near Risk"; break;
+                case 5: return "Lowest Risk"; break;
+            }
+
+            return "";
         }
 
         private void AddSpeciesButton(object sender, RoutedEventArgs e)

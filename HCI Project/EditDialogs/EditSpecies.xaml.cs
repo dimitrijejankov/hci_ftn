@@ -80,12 +80,12 @@ namespace HCI_Project.EditDialogs
         {
             switch(e)
             {
-                case 0 : return "Critically Endangered"; break;
-                case 1 : return "Endangered"; break;
-                case 2 : return "Vulnerable"; break;
-                case 3 : return "Dependent on Conservation of Habitat"; break;
-                case 4 : return "Near Risk"; break;
-                case 5: return "Lowest Risk"; break;
+                case 0 : return "Critically Endangered";
+                case 1 : return "Endangered";
+                case 2 : return "Vulnerable";
+                case 3 : return "Dependent on Conservation of Habitat";
+                case 4 : return "Near Risk";
+                case 5: return "Lowest Risk";
             }
 
             return "";
